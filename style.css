@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900);
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+html,
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color:#fff;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+[class*="__container"]{
+    max-width: 381px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    background: #1A1A1A;
+    }
+.wrapper {
+}
+.header {
+}
+.header__container {
+    background-color: #3F3F3F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -1px 0px rgba(255, 255, 255, 0.25);
+}
+.header__menu {
+    max-width: 100%;
+	padding: 28px 0px 28px 8px;
+}
+.menu {
+}
+.menu__icon {
+}
+.icon-menu {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 18px;
+    background-color: #3F3F3F;
+
+    cursor: pointer;
+}
+span,
+.icon-menu::before,
+.icon-menu::after {
+        content: "";
+        left: 0px;
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    .icon-menu::before {
+        top: 0px;
+    }
+    .icon-menu::after {
+        bottom: 0px;
+    }
+    span {
+        top: calc(50% - 1px);
+    }
+
+.main {
+}
+.page {
+}
+.page__container {
+    
+}
+.page__items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 69px 0px 309px 0px;
+}
+.page__button {    
+    cursor: pointer;
+    font-size: 24px;
+        line-height: 28px;
+        font-weight: 900;  
+        text-align: center;
+        display: inline-block;
+        color: #fff;
+        background: linear-gradient(269deg, #D90000 -1.25%, #BE0000 100.62%);
+        padding: 17px 75px 25px 75px;     
+        border-radius: 8px;
+}
+._big {
+    padding: 17px 45px 25px 45px;    
+}
+/*-----------------*/
+
+.about {
+}
+.about__container {
+}
+.about__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 69px 0px;
+}
+.about__text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+    gap: 20px;
+    padding: 37px 5px 200px 5px;
+
+}
+.about__paragraph {
+}
+.about__button {
+    cursor: pointer;
+    font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;  
+        text-align: center;
+        display: inline-block;
+        color: #fff;
+        background: linear-gradient(269deg, #D90000 -1.25%, #BE0000 100.62%);
+        padding: 18px 93px 19px 94px;     
+        box-shadow: 0px 9px 19px rgba(0, 0, 0, 0.81);
+        border-radius: 8px;
+}
